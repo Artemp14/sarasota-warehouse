@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sarasota Warehouse | For Sale or Lease</title>
+<style>
+:root{--navy:#092746;--navy2:#123b62;--gold:#f5b51b;--ink:#182536;--muted:#64748b;--light:#f5f7fa;--white:#fff}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+nav{position:fixed;top:0;left:0;right:0;z-index:20;background:rgba(7,31,56,.97);display:flex;align-items:center;justify-content:space-between;padding:18px 6%;box-shadow:0 2px 16px #0002}
+.logo{font-size:22px;font-weight:800;letter-spacing:.5px;color:#fff}.logo span{color:var(--gold)}
+nav .links{display:flex;gap:26px}nav a{color:#fff;text-decoration:none;font-size:14px;font-weight:700;letter-spacing:.5px}nav a:hover{color:var(--gold)}
+.hero{min-height:720px;padding:150px 6% 80px;display:flex;align-items:center;background:linear-gradient(90deg,rgba(5,30,55,.97) 0%,rgba(5,30,55,.78) 38%,rgba(5,30,55,.18) 72%),url('warehouse.jpg') center/cover}
+.hero-inner{max-width:720px;color:#fff}.eyebrow{color:var(--gold);font-weight:800;letter-spacing:2px;text-transform:uppercase}
+h1{font-size:clamp(42px,6vw,76px);line-height:1.03;margin:12px 0 20px}.hero p{font-size:20px;max-width:650px}
+.btn{display:inline-block;padding:14px 22px;border-radius:3px;text-decoration:none;font-weight:800;margin:10px 8px 0 0}.primary{background:var(--gold);color:#111}.outline{border:1px solid #fff;color:#fff}.primary:hover{filter:brightness(1.08)}
+section{padding:90px 6%}.container{max-width:1200px;margin:auto}
+.section-title{text-align:center;margin-bottom:45px}.section-title h2{font-size:38px;margin:0;color:var(--navy)}.section-title p{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.stat{background:var(--light);padding:28px;border-radius:8px;border-top:4px solid var(--gold)}.stat strong{display:block;font-size:28px;color:var(--navy)}.stat span{color:var(--muted)}
+.overview{background:#fff}.two{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.features{display:grid;grid-template-columns:1fr 1fr;gap:15px;padding:0;list-style:none}.features li{padding:14px 16px;background:var(--light);border-radius:6px}.features b{color:var(--navy)}
+.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;gap:14px}.gallery div{height:230px;background:url('warehouse.jpg') center/cover;border-radius:7px;overflow:hidden}.gallery .large{grid-row:span 2;height:474px}
+.options{background:var(--light)}.cards{display:grid;grid-template-columns:1fr 1fr;gap:25px}.card{background:#fff;border-radius:10px;padding:34px;box-shadow:0 8px 30px #09274612;border-top:5px solid var(--gold)}.card h3{color:var(--navy);font-size:25px;margin-top:0}.price{font-size:38px;font-weight:900;color:var(--navy);margin:10px 0}.card ul{padding-left:20px}
+.terms{background:var(--navy);color:#fff}.terms h2{color:#fff}.terms-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}.term{border:1px solid #ffffff2c;padding:25px;border-radius:8px}.term b{color:var(--gold)}
+.contact{background:#fff}.contact-box{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;padding:50px;border-radius:12px;display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:center}.contact h2{font-size:40px;margin:0 0 10px}.editable{background:#ffffff12;border:1px dashed #ffffff70;padding:22px;border-radius:8px}.editable strong{color:var(--gold)}
+footer{background:#061c32;color:#b8c6d5;text-align:center;padding:28px;font-size:13px}
+@media(max-width:800px){nav .links{display:none}.hero{min-height:650px}.grid,.cards,.two,.terms-grid,.contact-box{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.gallery .large{grid-row:auto;height:230px}.gallery div{height:180px}.features{grid-template-columns:1fr}section{padding:65px 5%}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo"><span>SARASOTA</span> WAREHOUSE</div>
+  <div class="links">
+    <a href="#home">HOME</a><a href="#property">PROPERTY</a><a href="#sale">FOR SALE</a><a href="#lease">FOR LEASE</a><a href="#terms">TERMS</a><a href="#contact">CONTACT</a>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="hero-inner">
+    <div class="eyebrow">Premium Industrial Opportunity</div>
+    <h1>40,000 SQ FT<br><span style="color:#f5b51b">WAREHOUSE</span></h1>
+    <p>Modern industrial space in Sarasota, Florida — designed for distribution, logistics, storage, light manufacturing and e-commerce operations.</p>
+    <a class="btn primary" href="#property">VIEW PROPERTY</a>
+    <a class="btn outline" href="#contact">CONTACT US</a>
+  </div>
+</header>
+
+<section id="property">
+<div class="container">
+  <div class="section-title"><h2>Property Overview</h2><p>A flexible industrial facility positioned for business growth in the Sarasota market.</p></div>
+  <div class="grid">
+    <div class="stat"><strong>40,000</strong><span>Total square feet</span></div>
+    <div class="stat"><strong>32 FT</strong><span>Clear ceiling height</span></div>
+    <div class="stat"><strong>6</strong><span>Dock-high loading doors</span></div>
+    <div class="stat"><strong>2</strong><span>Drive-in doors</span></div>
+  </div>
+  <div class="two" style="margin-top:45px">
+    <div>
+      <h3 style="font-size:28px;color:#092746">Built for modern business</h3>
+      <p>This conceptual Sarasota industrial property combines a large open warehouse footprint with loading capacity, office support space and room for a variety of commercial uses.</p>
+      <ul class="features">
+        <li><b>Location:</b> Sarasota, FL 34243</li>
+        <li><b>Property Type:</b> Industrial Warehouse</li>
+        <li><b>Construction:</b> Concrete tilt-up</li>
+        <li><b>Year Built:</b> 2020</li>
+        <li><b>Power:</b> 3-phase electrical service</li>
+        <li><b>Sprinklers:</b> ESFR system</li>
+        <li><b>Parking:</b> On-site employee/visitor parking</li>
+        <li><b>Access:</b> Convenient regional highway access</li>
+      </ul>
+    </div>
+    <div class="gallery">
+      <div class="large"></div><div></div><div></div><div></div><div></div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="options">
+<div class="container">
+  <div class="section-title"><h2>Choose Your Option</h2><p>Two straightforward ways to secure the property.</p></div>
+  <div class="cards">
+    <div class="card" id="sale">
+      <h3>OPTION 1 — PURCHASE</h3>
+      <div class="price">$5,150,000</div>
+      <p><b>Approx. $128.75 / SF</b></p>
+      <ul>
+        <li>Full ownership of the 40,000 SF facility</li>
+        <li>Ideal for owner-users or long-term investors</li>
+        <li>Property delivered subject to standard due diligence</li>
+        <li>Closing and other transaction costs negotiated by the parties</li>
+      </ul>
+      <a class="btn primary" href="#contact">REQUEST SALE DETAILS</a>
+    </div>
+    <div class="card" id="lease">
+      <h3>OPTION 2 — LEASE</h3>
+      <div class="price">$8.95 / SF / YEAR</div>
+      <p><b>NNN lease · Approx. $29,833/month base rent</b></p>
+      <ul>
+        <li>Full 40,000 SF warehouse available</li>
+        <li>Minimum lease term: 2 years</li>
+        <li>Three months of base rent paid in advance</li>
+        <li>Tenant responsible for utilities and applicable NNN expenses</li>
+      </ul>
+      <a class="btn primary" href="#contact">REQUEST LEASE DETAILS</a>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="terms" id="terms">
+<div class="container">
+  <div class="section-title"><h2>Terms & Conditions</h2><p style="color:#c7d4e2">Simple, transparent starting terms for the academic property concept.</p></div>
+  <div class="terms-grid">
+    <div class="term"><b>LEASE TERM</b><br>Minimum contract period of 2 years.</div>
+    <div class="term"><b>ADVANCE PAYMENT</b><br>Three months of base rent due in advance at lease commencement.</div>
+    <div class="term"><b>TERMINATION NOTICE</b><br>Written notice required at least 60 days before requested termination, subject to the final lease agreement.</div>
+    <div class="term"><b>DUE DILIGENCE</b><br>Sale is subject to standard property, title, zoning and financial due diligence.</div>
+  </div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="container">
+  <div class="contact-box">
+    <div>
+      <div class="eyebrow">Ready to discuss the property?</div>
+      <h2>Let's talk about your next move.</h2>
+      <p>Schedule a tour, request financial information or ask about purchase and lease availability.</p>
+    </div>
+    <div class="editable">
+      <strong>EDITABLE CONTACT INFORMATION</strong>
+      <p><b>Contact:</b> [INSERT NAME]</p>
+      <p><b>Company:</b> [INSERT COMPANY]</p>
+      <p><b>Phone:</b> [INSERT PHONE]</p>
+      <p><b>Email:</b> [INSERT EMAIL]</p>
+      <a class="btn primary" href="mailto:INSERT-EMAIL-HERE@example.com">EMAIL US</a>
+    </div>
+  </div>
+</div>
+</section>
+
+<footer>
+  © 2026 Sarasota Warehouse · For Sale or Lease · Academic Real Estate Marketing Project<br>
+  All property details shown are a realistic conceptual example for educational use.
+</footer>
+</body>
+</html>
